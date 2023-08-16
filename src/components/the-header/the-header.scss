@@ -1,0 +1,9 @@
+@use '@/assets/styles/media.scss';
+
+.header {
+	padding: 40px 0;
+
+	@include media.sm {
+		padding: 24px 0;
+	}
+}

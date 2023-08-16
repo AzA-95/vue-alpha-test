@@ -1,0 +1,9 @@
+{
+	"extends": ["stylelint-config-standard-scss"],
+	"overrides": [
+		{
+			"files": ["*.vue", "**/*.vue"],
+			"extends": ["stylelint-config-standard-vue/scss"]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+@use '@/assets/styles/media.scss';
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(536px, 1fr));
+	gap: 64px 48px;
+
+	@include media.sm {
+		gap: 20px;
+		grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	}
+}

@@ -1,0 +1,22 @@
+@use '@/assets/styles/media.scss';
+
+.footer {
+	padding: 64px 0;
+	background: var(--color-sixth);
+}
+
+.logo-wrap {
+	margin-bottom: 16px;
+}
+
+.copyright {
+	color: var(--color-tenth);
+	font-size: 16px;
+	line-height: 140%;
+}
+
+@include media.sm {
+	.footer {
+		padding: 24px 0;
+	}
+}
